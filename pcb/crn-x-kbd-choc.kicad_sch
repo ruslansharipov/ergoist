@@ -480,7 +480,7 @@
   (no_connect (at 166.37 145.288) (uuid aaa0fdb5-371f-423c-8dc2-c61a67e05845))
   (no_connect (at 168.91 145.288) (uuid b74d4ba6-6b5b-46a3-b7ef-01bdcf05f52a))
   (no_connect (at 194.183 41.91) (uuid ba4891cd-4c22-4e44-85b3-fa73ea17af9c))
-  (no_connect (at 262.255 150.495) (uuid d7185cc2-b69c-402f-b3f9-1903c12275f2))
+  (no_connect (at 265.43 99.06) (uuid d7185cc2-b69c-402f-b3f9-1903c12275f2))
   (no_connect (at 192.278 118.11) (uuid d9a7dc3f-41fc-4903-89b3-c261f8ce1416))
   (no_connect (at 166.37 107.442) (uuid da3a6396-b54e-4289-8163-8619c552fd30))
   (no_connect (at 163.83 146.05) (uuid ed828d55-5f97-4da1-a36b-d3da2ad41be0))
@@ -899,15 +899,15 @@
     (uuid ea24634c-a838-4d02-84df-436fdcedab7a)
   )
 
-  (text "B A T T E R Y" (at 223.393 50.165 0)
+  (text "B A T T E R Y" (at 220.98 49.53 0)
     (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
     (uuid 211bec13-d945-4bde-9fbb-0f8c403658bf)
   )
-  (text "R E S E T \nB U T T O N" (at 223.52 28.575 0)
+  (text "R E S E T \nB U T T O N" (at 220.98 29.21 0)
     (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
     (uuid 4a19684c-31bd-4424-8444-d58cffd8f97e)
   )
-  (text "P O W E R\nS W I T C H" (at 222.25 153.035 0)
+  (text "POWER SWITCH 2" (at 219.71 101.6 0)
     (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
     (uuid 651b0fb8-6a6d-4c30-91ab-d0fb8b2ae86b)
   )
@@ -923,7 +923,7 @@
     (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
     (uuid e786dc90-9ed6-4745-b020-9bf57c6a419f)
   )
-  (text "P O W E R\nS W I T C H" (at 224.155 73.66 0)
+  (text "POWER SWITCH 1" (at 220.98 74.93 0)
     (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
     (uuid ea5b8d14-a8db-40fc-889b-01bc728c8404)
   )
@@ -1047,10 +1047,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "VBAT" (shape input) (at 262.255 155.575 0) (fields_autoplaced)
+  (global_label "VBAT" (shape input) (at 265.43 104.14 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 5da61c9e-7760-454b-9fe0-c2d9aa5ce559)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 269.0008 155.575 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 272.1758 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1138,10 +1138,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "BAT+" (shape input) (at 252.095 153.035 180) (fields_autoplaced)
+  (global_label "BAT+" (shape input) (at 255.27 101.6 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 86b9dc22-0ca1-4fc1-a805-008e79c7a8ba)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 244.8654 153.035 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 248.0404 101.6 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1255,7 +1255,7 @@
     (pin "1" (uuid de14e015-299a-4647-abbc-86bedd244ab9))
     (pin "2" (uuid a253a8de-5e04-441c-bf82-2631d9e03c87))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "SW2") (unit 1)
         )
@@ -1281,7 +1281,7 @@
     (pin "1" (uuid 21c88571-c384-4e80-8294-b36cf59b7dd5))
     (pin "2" (uuid 5f2dd64e-f3de-4ee5-8e74-11ffbc3d3647))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "D2") (unit 1)
         )
@@ -1307,7 +1307,7 @@
     (pin "1" (uuid 5b35e87f-4158-4b78-9462-97c55f1fc65f))
     (pin "2" (uuid aaec0a42-aa40-4eb0-9818-a248ba02f5f1))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "SW3") (unit 1)
         )
@@ -1333,7 +1333,7 @@
     (pin "1" (uuid b4cdd7d8-e910-4aaf-9d27-6399b87e2e18))
     (pin "2" (uuid 295dca2f-e41c-45c6-a60b-048dc624c5c5))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "D3") (unit 1)
         )
@@ -1359,7 +1359,7 @@
     (pin "1" (uuid db3947e0-7a8e-44d5-8408-b2f454c662c8))
     (pin "2" (uuid 2dc3264b-9bd0-49cf-86ad-01e03a6aec95))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "SW4") (unit 1)
         )
@@ -1385,7 +1385,7 @@
     (pin "1" (uuid 694ed2db-4f5c-4ce1-9e1a-f86588a645be))
     (pin "2" (uuid da56a9a4-ed75-4847-80c7-d3bfa8022ef8))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "SW5") (unit 1)
         )
@@ -1411,7 +1411,7 @@
     (pin "1" (uuid 6f555bb5-daa8-457e-b134-2f489f99cd57))
     (pin "2" (uuid 2207d36c-cef9-428e-b33d-928604f07e2f))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "SW6") (unit 1)
         )
@@ -1437,7 +1437,7 @@
     (pin "1" (uuid 26f7157b-06e3-4d22-ad34-7b1b56cc68c0))
     (pin "2" (uuid 739335d0-51dd-436d-9d93-b72cca5cb9ff))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "D4") (unit 1)
         )
@@ -1463,7 +1463,7 @@
     (pin "1" (uuid d1a8a463-927e-43bb-9e12-502ee55d508b))
     (pin "2" (uuid a720eb8f-6f59-4073-9621-d9d473123806))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "D5") (unit 1)
         )
@@ -1489,7 +1489,7 @@
     (pin "1" (uuid 6b7aec5c-63aa-4596-9a79-40862a492e30))
     (pin "2" (uuid 644a439b-cc9d-45ca-a76b-0f1d220d5e99))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "D6") (unit 1)
         )
@@ -1515,7 +1515,7 @@
     (pin "1" (uuid 23576eda-cca9-42b8-8b26-07a963781c03))
     (pin "2" (uuid f83632f4-58c9-42f2-b907-baa5d2d025c1))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "SW8") (unit 1)
         )
@@ -1541,7 +1541,7 @@
     (pin "1" (uuid 37bfaee0-a1b5-480b-b099-732e92f14d00))
     (pin "2" (uuid 05cf027a-0e56-48ff-9b2f-8e025b607cb8))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "D8") (unit 1)
         )
@@ -1567,7 +1567,7 @@
     (pin "1" (uuid 2da594b1-adae-41ae-91d5-173bcb638fc9))
     (pin "2" (uuid ee51fb2f-9f18-41d6-8fc0-3e25c69fe535))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "SW9") (unit 1)
         )
@@ -1593,7 +1593,7 @@
     (pin "1" (uuid 5a6bf3bc-0c70-4f1e-8de1-40a630681b05))
     (pin "2" (uuid 8cf16647-65fe-4a79-8a66-f2eda317abdc))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "D9") (unit 1)
         )
@@ -1619,7 +1619,7 @@
     (pin "1" (uuid 3b06ffba-8659-4781-8bde-071c0ca516c7))
     (pin "2" (uuid 269b6559-d38f-4879-b18d-e8acc0662930))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "SW10") (unit 1)
         )
@@ -1645,7 +1645,7 @@
     (pin "1" (uuid ab68b1ca-8a63-45f5-964a-adf402a8e668))
     (pin "2" (uuid c8d31733-7c8a-4c0d-8c1b-ab652a572ecb))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "SW11") (unit 1)
         )
@@ -1671,7 +1671,7 @@
     (pin "1" (uuid 9932f992-31ee-492b-a959-2d0795ab7692))
     (pin "2" (uuid 65a605a7-e487-4cc6-af1b-598f217a1ef1))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "SW12") (unit 1)
         )
@@ -1697,7 +1697,7 @@
     (pin "1" (uuid 39b021f6-c11e-48a1-a8b7-35ae6f21db02))
     (pin "2" (uuid 66646249-3277-4753-b8d0-1e3471188c7e))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "D10") (unit 1)
         )
@@ -1723,7 +1723,7 @@
     (pin "1" (uuid a5ad5cc4-5c3d-4f5d-8d73-6fabeb9b7b40))
     (pin "2" (uuid 9463520e-e296-47c8-a617-eb70d0c595e0))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "D11") (unit 1)
         )
@@ -1749,7 +1749,7 @@
     (pin "1" (uuid 03932b8c-d0be-4f51-998a-5680567f87ea))
     (pin "2" (uuid c94cdc8e-e18e-428f-9a0d-cae20dc786b6))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "D12") (unit 1)
         )
@@ -1775,7 +1775,7 @@
     (pin "1" (uuid 28d83147-9365-4ed8-8f69-45bd672fcf5c))
     (pin "2" (uuid f415dd9c-acff-4f10-bf95-866883edb8c9))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "SW14") (unit 1)
         )
@@ -1801,7 +1801,7 @@
     (pin "1" (uuid 6971420e-f0ae-4db3-8fa1-b90f123474ce))
     (pin "2" (uuid 994dbc82-49ad-44d8-8778-05fe45b84139))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "D14") (unit 1)
         )
@@ -1827,7 +1827,7 @@
     (pin "1" (uuid b0d05210-3f2b-4c19-9e7b-d6174f818a44))
     (pin "2" (uuid cc49d697-f96b-4911-af43-eec163621d2f))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "SW15") (unit 1)
         )
@@ -1853,7 +1853,7 @@
     (pin "1" (uuid 3bbd430c-620c-4ed6-95bb-63a8dcc5164a))
     (pin "2" (uuid 78bdac2d-8f09-4f1c-a94d-90c9b1db0bf4))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "D15") (unit 1)
         )
@@ -1879,7 +1879,7 @@
     (pin "1" (uuid e1d241f2-efc2-4625-9204-8ada2afbccaa))
     (pin "2" (uuid 1753e48e-e603-47a3-9c3a-4609b5063ff9))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "SW16") (unit 1)
         )
@@ -1905,7 +1905,7 @@
     (pin "1" (uuid b2887f04-d4b2-4e9f-ab8c-255545dccfa3))
     (pin "2" (uuid 062c517f-58b7-427d-a2ca-b67302945f8a))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "SW17") (unit 1)
         )
@@ -1931,7 +1931,7 @@
     (pin "1" (uuid 0c0be8fc-5115-4e43-88c0-a24af5d19fd2))
     (pin "2" (uuid 8d66dc61-26db-46f0-968e-0db32699b351))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "SW18") (unit 1)
         )
@@ -1957,7 +1957,7 @@
     (pin "1" (uuid 7d5626b1-784d-435e-8bf0-da1ca1b59e87))
     (pin "2" (uuid d360a705-a510-49bf-bc6b-1c8bac1a8c98))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "D16") (unit 1)
         )
@@ -1983,7 +1983,7 @@
     (pin "1" (uuid 49169fda-cc85-493e-8b0e-562dac27bfff))
     (pin "2" (uuid 9ed11f24-65d0-45c4-93f0-c5945d02c3ad))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "D17") (unit 1)
         )
@@ -2009,7 +2009,7 @@
     (pin "1" (uuid fc892c31-9aa0-4a97-bc51-86f508cd541a))
     (pin "2" (uuid 35e72aa3-6504-4b0b-a759-c663cab1fda8))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "D18") (unit 1)
         )
@@ -2035,7 +2035,7 @@
     (pin "1" (uuid 41d47c0f-7b11-4c26-97d3-bb1ba83c762e))
     (pin "2" (uuid 04614781-3be0-46ef-802c-af0fa7c477ac))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "SW20") (unit 1)
         )
@@ -2061,7 +2061,7 @@
     (pin "1" (uuid 0a259e53-9938-4481-a47f-df1b45ffd073))
     (pin "2" (uuid a595e7b3-d5ae-4d28-955f-167081d6bf7b))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "D20") (unit 1)
         )
@@ -2087,7 +2087,7 @@
     (pin "1" (uuid bb4dd595-1598-4a3f-bae3-41d969c1259b))
     (pin "2" (uuid 5f46038e-a4ae-4c23-89e3-78d5adc6b34e))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "SW21") (unit 1)
         )
@@ -2113,7 +2113,7 @@
     (pin "1" (uuid 0b1754dc-82e5-4510-ba8f-5f98510f5716))
     (pin "2" (uuid e44e2c90-ea7b-4226-a5c4-acde2af8cfc9))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "D21") (unit 1)
         )
@@ -2139,7 +2139,7 @@
     (pin "1" (uuid 11e4d685-1272-4887-9b66-5ca95bf5cc92))
     (pin "2" (uuid 3ee8eca9-2b67-4c33-8839-1cbd25b37409))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "SW19") (unit 1)
         )
@@ -2165,7 +2165,7 @@
     (pin "1" (uuid 3b15c15f-29cd-4d9f-aa16-540efe70ec82))
     (pin "2" (uuid 131cb0ee-a800-4006-889e-ff1283847f20))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "D19") (unit 1)
         )
@@ -2173,26 +2173,26 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_SPDT") (at 257.175 153.035 0) (unit 1)
+  (symbol (lib_id "Switch:SW_SPDT") (at 260.35 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06ce4257-8744-46b4-b478-077e6d302077)
-    (property "Reference" "PWR_2" (at 257.175 144.78 0)
+    (property "Reference" "PWR_2" (at 260.35 93.345 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SW_SPDT" (at 257.175 147.32 0)
+    (property "Value" "SW_SPDT" (at 260.35 95.885 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TOTEMlib:MSK12C02" (at 257.175 153.035 0)
+    (property "Footprint" "TOTEMlib:MSK12C02" (at 260.35 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 257.175 153.035 0)
+    (property "Datasheet" "~" (at 260.35 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d6e4fc35-1408-4e98-ab0e-801fd762eb7c))
     (pin "2" (uuid c5f405ff-6f7b-47e5-8daa-c0af1b97d74a))
     (pin "3" (uuid 4d13aca8-78a7-4137-8a9a-0542ceecf19f))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "PWR_2") (unit 1)
         )
@@ -2223,7 +2223,7 @@
     (pin "1" (uuid 9d4f1df5-b830-42ca-a16e-8bd1837f7af3))
     (pin "2" (uuid 7401998f-b2dd-42fa-a6b4-076fe88a0759))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "SW1") (unit 1)
         )
@@ -2248,7 +2248,7 @@
     )
     (pin "1" (uuid 40d0e05f-c2de-473d-95a0-0dcf76d79f4b))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "BATGND1") (unit 1)
         )
@@ -2280,7 +2280,7 @@
     (pin "2" (uuid 26f9c3cd-dc71-49c6-856a-78bb3342191b))
     (pin "3" (uuid 4984c59b-1cfb-4add-9bfc-31e6065bf8ed))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "PWR_1") (unit 1)
         )
@@ -2311,7 +2311,7 @@
     (pin "1" (uuid 417b0985-cfd3-4a78-a69d-86040cf2a73c))
     (pin "2" (uuid 172eee7b-091d-473a-abd8-0f1560b8e22e))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "SW13") (unit 1)
         )
@@ -2337,7 +2337,7 @@
     (pin "1" (uuid 7df09af9-b204-43b2-92e2-8e853d973302))
     (pin "2" (uuid a07e4708-75c1-4377-9ee2-c54540009201))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "D1") (unit 1)
         )
@@ -2363,7 +2363,7 @@
     (pin "1" (uuid c063a391-a67b-4827-96e5-c00f32165a88))
     (pin "2" (uuid ad3215d7-43fe-4df6-bb57-e9fdb8909763))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "SW7") (unit 1)
         )
@@ -2389,7 +2389,7 @@
     (pin "1" (uuid b157029b-f564-4885-9abe-9a2db23c8b6f))
     (pin "2" (uuid b7be1361-4923-4929-95b0-70d8b91f43f0))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "RST1") (unit 1)
         )
@@ -2440,7 +2440,7 @@
     (pin "8" (uuid 197955d9-565c-4ea0-8b62-11b13d00d312))
     (pin "9" (uuid 72184a2a-8b81-42ca-bc79-b52cd1cf7663))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "U1") (unit 1)
         )
@@ -2491,7 +2491,7 @@
     (pin "8" (uuid 87ebe6b7-41f3-4e4b-9944-814d0b9fc639))
     (pin "9" (uuid 1efd9830-cea5-43b0-b473-f97477e03846))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "U4") (unit 1)
         )
@@ -2522,7 +2522,7 @@
     (pin "1" (uuid 264e152f-cfba-472f-8a20-34fbad19c341))
     (pin "2" (uuid 653e1f74-2c23-4716-bff8-3fc774c40228))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "D13") (unit 1)
         )
@@ -2547,7 +2547,7 @@
     )
     (pin "1" (uuid 315519a6-78eb-440d-8716-b83872a66c60))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "BAT+1") (unit 1)
         )
@@ -2578,7 +2578,7 @@
     (pin "1" (uuid 586ffc82-3193-4d5b-b7fb-4cf5b86195ac))
     (pin "2" (uuid e1085a1a-2cdd-4e93-80bb-45ef33830748))
     (instances
-      (project "corne-chocolate-p-reversible"
+      (project "crn-x-kbd-choc"
         (path "/37c34543-4f5f-4f90-bc04-c7ab95ae8ea4"
           (reference "D7") (unit 1)
         )
