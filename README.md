@@ -1,13 +1,13 @@
 # crn-x-kbd
 Ergonomic fully split keyboard
 
-Main features:
-- 42 keys including 3 keys thumb cluster (just like on corne)
-- all keys are 1u to make it easier to find keycaps (or print them)
-- pcb has big cut for battery, that can fit 35x30 lipo battery. my plan is to fit lipo 503035 500mA battery there
+Main features: 
+- ortholinear layout with 42 keys including 3 keys thumb cluster (just like on corne)
+- all keys are 1u to make it easier to find keycaps
+- pcb has big cut for battery, that can fit 35x30 lipo battery (should fit lipo 503035 500mA)
 - designed to be used with Seeduino Xiao
-- it's wireless only. I'm not using wired keyboards, so the first version is wireless, I'll upgrade it in future to have wired option since it's quite popular
-- it doesn't have screen integration, (yet?)
+- wireless only. Wired version will be supported it in future
+- no screen integration (yet?)
 
 
 Status:
