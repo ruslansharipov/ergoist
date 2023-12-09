@@ -16,7 +16,12 @@ Status:
 - ~pcb v0.1 in production~
 - case design
 
+PCB screenshot from KiCAD:
 ![Screenshot](/assets/Screenshot%202023-11-06%20at%2020.16.44.png)
+
+Assembled keyboard without the case:
+![1](/assets/msg270168496-207822.jpg)
+![2](/assets/msg270168496-207824.jpg)
 
 TODO
 - partlist
